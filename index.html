@@ -8,14 +8,84 @@
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <main>
+    <div class="main-content">
+      <div class="phone">
+        <div class="phone-screen">
+            <div class="top-bar"></div>
+            <div class="top-nav">
+                <div class="back-icon"></div>
+                <div class="correspondent">
+                    <img src="assets/images/avatar.jpg" alt="">
+                    <p><span class="correspondent-name">Samuel Green</span></p>
+                    <p>Available to Walk</p>
+                </div>
+                <div class="message-options">
+                    <div class="top-dot dot"></div>
+                    <div class="center-dot dot"></div>
+                    <div class="bottom-dot dot"></div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="msg incoming-msg">
+                    <p>That sounds great. I'd be happy with that.</p>
+                </div>
+                <div class="msg incoming-msg">
+                    <p>Could you send over some pictures of your dog. please?</p>
+                </div>
+                <div class="msg outgoing-pictures">
+                    <img src="assets/images/dog-image-1.jpg" alt="">
+                    <img src="assets/images/dog-image-2.jpg" alt="">
+                    <img src="assets/images/dog-image-3.jpg" alt="">
+                </div>
+                <div class="msg outgoing-msg">
+                    <p>Here are a few pictures. She's a happy girl!</p>
+                </div>
+                <div class="msg outgoing-msg">
+                    <p>Can you make it?</p>
+                </div>
+                <div class="msg incoming-msg">
+                    <p>She looks so happy! The time we discussed works. How long shall i take her out for?</p>
+                </div>
+                <div class="msg incoming-offer">
+                    <div>
+                        <input type="radio" name="price" id="$29">
+                        <span class="checkmark"></span>
+                        <label for="$29">30 minute walk</label>
+                    </div>
+                    <p><span class="price">$29</span></p>
+                </div>
+                <div class="msg incoming-offer">
+                    <div>
+                        <input type="radio" name="price" id="$49">
+                        <span class="checkmark"></span>
+                        <label for="$49">1 hour walk</label>
+                    </div>
+                    <p><span class="price">$49</span></p>
+                </div>
+            </div>
+            <div class="text-bar">
+                <p>Type a message...</p>
+                <div class="circle"></div>
+            </div>
+        </div>
+      </div>
+    
+      <div class="text-content">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/MehdiT-dev" target="_blank">Mehdi Tadjer</a>.</p>
+    </div>
+  </footer>
 
   Samuel Green
   Available to Walk
@@ -44,10 +114,6 @@
   discuss arrangements and make bookings. Once the walk has been completed you can rate 
   your walker and book again all through the chat.
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
